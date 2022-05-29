@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700;900&family=Ms+Madi&display=swap");
+:root {
+	--color_black: #000000;
+	--color_blanco_oscuro: #ebebeb;
+	--color_morado: #873177;
+	--color_blanco: #ffffff;
+}
+body {
+	list-style-type: none;
+	color: var(--color_black);
+	font-family: "Inter", sans-serif;
+}
+/* Header-NavBar */
+
+.nav-item .nav-link {
+	color: var(--color_morado);
+	font-weight: bold;
+}
+.container {
+	max-width: 1600px;
+}
+.w-100 {
+	height: 100vh;
+}
+.padded {
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+.navbar-brand {
+	color: var(--color_blanco_oscuro);
+	font-size: 2rem;
+	letter-spacing: -3px;
+	cursor: pointer;
+}
+.navbar-brand:hover {
+	color: var(--color_morado);
+	transition: 0.5s ease;
+}
+.carousel-indicators [data-bs-target] {
+	height: 0.2rem;
+	width: 4rem;
+}
+.carousel-indicators .active {
+	opacity: 1;
+	background-color: var(--color_black);
+}
+.navbar_scroll {
+	background-color: #873177;
+	transition: 0.5s ease;
+	color: var(--color_blanco);
+}
+.navbar_scroll .nav-item .nav-link {
+	color: var(--color_blanco);
+}
+.form-control {
+	border-radius: 25px;
+	padding-left: 16px;
+}
+.search {
+	width: 400px;
+}
+.nav-link {
+	color: var(--color_blanco);
+	font-size: 20px;
+	margin: 0 40px;
+}
+.nav_icon {
+	margin: 0 4px;
+}
+.txt_slider {
+	width: 500px;
+	top: 45%;
+	right: 85%;
+}
+/* Carousel Slider */
+
+.carousel-caption {
+	display: flex;
+	justify-content: flex-start;
+	text-transform: uppercase;
+}
+.carousel-caption h5 {
+	font-size: 6rem;
+}
+.carousel-caption p {
+	font-size: 2rem;
+}
+.carousel-caption .btn {
+	font-size: 1.5rem;
+	padding: 4px 40px;
+}
+.banner-text {
+	position: absolute;
+	bottom: 40%;
+	left: 17.5%;
+	padding-bottom: 1.25rem;
+	color: var(--color_blanco);
+	width: 25%;
+	padding: 8px;
+	border: 1px solid var(--color_black);
+	border-radius: 16px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.banner-text h3 {
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+.banner-text p {
+	font-size: 2rem;
+}
+.slider {
+	margin-bottom: 30px;
+	position: relative;
+}
+.owl-carousel .owl-nav button.owl-prev {
+	color: red;
+	position: absolute;
+	top: 35%;
+	margin-left: -40px;
+	left: 0;
+	font-size: 55px;
+}
+.owl-carousel .owl-nav button.owl-next {
+	color: red;
+	position: absolute;
+	top: 35%;
+	margin-right: -40px;
+	right: 0;
+	font-size: 55px;
+}
+/* Carta */
+
+.vertodo {
+	margin-left: 1450px;
+	color: var(--color_morado);
+	font-weight: bold;
+	cursor: pointer;
+}
+.vertodo:hover {
+	color: var(--color_black);
+}
+.card_principal {
+	margin-top: 150px;
+}
+.card_productos {
+	cursor: pointer;
+	margin: 16px;
+	height: 400px;
+}
+.imagen-icon {
+	border: 3px solid var(--color_blanco_oscuro);
+	border-radius: 16px;
+	padding: 32px;
+}
+.imagen-icon .bi {
+	position: absolute;
+	top: 5%;
+	left: 85%;
+	font-size: 15px;
+	cursor: pointer;
+}
+.imagen-icon .bi:hover {
+	color: red;
+}
+.imagen-icon img {
+	margin-top: 16px;
+}
+.txt_productos {
+	margin: 16px 0;
+}
+/* Platos Insignias */
+
+.title_platos {
+	font-size: 3rem;
+	margin: 25px 0;
+}
+.ins-img {
+	width: 50%;
+	height: 100%;
+}
+.insignia figure {
+	position: relative;
+}
+.insignia figure figcaption {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+}
+.insignia figure figcaption div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.owl-carousel .owl-item img {
+	height: 250px;
+}
+.insignia figure figcaption div h6 {
+	color: var(--color_blanco);
+	font-size: 32px;
+}
+.insignia figure figcaption div i {
+	color: var(--color_blanco);
+	font-size: 24px;
+	cursor: pointer;
+}
+#fondo-oscuro {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 2000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#fondo-oscuro img {
+	position: absolute;
+	bottom: 9.6%;
+	right: 0;
+	width: 50%;
+	height: auto;
+}
+/* Chefs-Fetch */
+
+.img_chefs {
+	width: 400px;
+	height: 50%;
+	margin-bottom: 250px;
+}
+#chefs h2 {
+	margin: 50px 0;
+}
+#chefs .list-group {
+	margin-bottom: 50px;
+}
+#lista-chefs li {
+	text-align: center;
+	margin-bottom: 15px;
+	border: 2px solid var(--color_blanco_oscuro);
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #873177;
+	padding: 1rem;
+}
+/* Newsletter */
+
+#newsletter {
+	color: var(--color_blanco);
+	margin-top: 150px;
+	background-color: var(--color_black);
+}
+#newsletter h2 {
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	margin: 16px 0;
+}
+#newsletter p {
+	margin: 2rem 0;
+}
+.enviar {
+	padding: 16px;
+}
+.btn_unete {
+	margin: 32px 0;
+	background-color: var(--color_morado);
+	border: 1px solid var(--color_morado);
+	border-radius: 16px;
+	padding: 16px 32px;
+}
+.btn_unete:hover {
+	background-color: var(--color_blanco_oscuro);
+	color: var(--color_black);
+	transition: 1s ease;
+}
+/* Footer */
+
+.footer .list-group,
+.footer .list-group .list-group-item {
+	border: none;
+	padding: 4px;
+}
+.footer {
+	padding-top: 20px;
+	background-color: var(--color_blanco_oscuro);
+}
+.footer .list-group-item {
+	background-color: var(--color_blanco_oscuro);
+}
+.main_footer {
+	padding: 4rem 0;
+}
+.nombre_footer {
+	margin-top: 16px;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+.icons_footer i {
+	margin-right: 2.3rem;
+	font-size: 32px;
+	padding: 16px 0;
+}
+.nombre_list_footer {
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 16px;
+}
+.footer_terminos {
+	padding: 2rem 0;
+}
+.footer_terminos h5 {
+	margin: 16px 0;
+	font-size: 16px;
+	padding-right: 16px;
+}

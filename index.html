@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>FastFood</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed-top">
+        <!-- Container -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg informacion">
+                <div class="container d-flex">
+                    <a class="navbar-brand" href="#">Fast Food</a>
+                    <form class="d-flex search" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav mb-2 mb-lg-0" id="menu-iconos">
+                        <li>
+                            <a class="nav-link nav_icon" href="#"><i class="bi bi-person-circle"></i></a>
+                        </li>
+                        <li>
+                            <a class="nav-link nav_icon" href="#"><i class="bi bi-heart"></i></a>
+                        </li>
+                        <li>
+                            <a class="nav-link nav_icon" href="#"><i class="bi bi-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar_proyecto" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Carousel Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/inicio-1.jpg" class="d-block w-100" alt="...">
+                <div class="banner-text">
+                    <h3>Perú</h3>
+                    <p>Contamos con los mejores platos peruanos.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/inicio-2.jpg" class="d-block w-100" alt="...">
+                <div class="banner-text">
+                    <h3>Mundo</h3>
+                    <p>Nuestra carta dispone de una gran variedad de platos de todo el mundo</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/inicio-3.jpg" class="d-block w-100" alt="...">
+                <div class="banner-text">
+                    <h3>Chefs</h3>
+                    <p>Contamos con los los mejores chefs del mundo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section Productos -->
+    <section id="carta" class="padded">
+        <div class="container">
+            <h2>Carta</h2>
+            <h3 class="vertodo">Ver Todo</h3>
+            <!-- Cars -->
+            <div class="owl-carousel row card_principal">
+                <div class="col item card_productos">
+                    <div class="imagen-icon">
+                        <img src="imagenes/ajidegallina.jpg" alt="Aji de Gallina" class="img-fluid">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <div class="txt_productos text-center">
+                        <h3>Aji de Gallina</h3>
+                        <h4>S/ 25.90</h4>
+                    </div>
+                </div>
+                <div class="col item card_productos">
+                    <div class="imagen-icon">
+                        <img src="imagenes/albondigas.jpg" alt="Albondigas" class="img-fluid">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <div class="txt_productos text-center">
+                        <h3>Albondigas</h3>
+                        <h4>S/ 25.90</h4>
+                    </div>
+                </div>
+                <div class="col item card_productos">
+                    <div class="imagen-icon">
+                        <img src="imagenes/arroz.jpg" alt="Arroz con Pollo" class="img-fluid">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <div class="txt_productos text-center">
+                        <h3>Arroz con Pollo</h3>
+                        <h4>S/ 25.90</h4>
+                    </div>
+                </div>
+                <div class="col item card_productos">
+                    <div class="imagen-icon">
+                        <img src="imagenes/caldodePollo.jpg" alt="Caldo de Pollo" class="img-fluid">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <div class="txt_productos text-center">
+                        <h3>Caldo de Pollo</h3>
+                        <h4>S/ 25.90</h4>
+                    </div>
+                </div>
+                <div class="col item card_productos">
+                    <div class="imagen-icon">
+                        <img src="imagenes/cevichedePota.jpg" alt="Ceviche de Pota" class="img-fluid">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <div class="txt_productos text-center">
+                        <h3>Ceviche de Pota</h3>
+                        <h4>S/ 25.90</h4>
+                    </div>
+                </div>
+                <div class="col item card_productos">
+                    <div class="imagen-icon">
+                        <img src="imagenes/cueteDeResalHorno.jpg" alt="Res al Horno" class="img-fluid">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <div class="txt_productos text-center">
+                        <h3>Res al Horno</h3>
+                        <h4>S/ 25.90</h4>
+                    </div>
+                </div>
+                <div class="col item card_productos">
+                    <div class="imagen-icon">
+                        <img src="imagenes/juanes.jpg" alt="Juanes" class="img-fluid">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <div class="txt_productos text-center">
+                        <h3>Juanes</h3>
+                        <h4>S/ 25.90</h4>
+                    </div>
+                </div>
+                <div class="col item card_productos">
+                    <div class="imagen-icon">
+                        <img src="imagenes/lomoSaltado.jpg" alt="Lomo Saltado" class="img-fluid">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <div class="txt_productos text-center">
+                        <h3>Lomo Saltado</h3>
+                        <h4>S/ 25.90</h4>
+                    </div>
+                </div>
+                <div class="col item card_productos">
+                    <div class="imagen-icon">
+                        <img src="imagenes/sopaSeca.jpg" alt="Sopa Seca" class="img-fluid">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <div class="txt_productos text-center">
+                        <h3>Sopa Seca</h3>
+                        <h4>S/ 25.90</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Platos Insiginias -->
+    <section id="insignia" class="padded">
+        <div class="container">
+            <h2 class="title_platos">Platos Insignia</h2>
+        </div>
+        <div class="insignia">
+            <div class="row g-0">
+                <figure class="col-12 m-0">
+                    <img src="imagenes/I-01.jpg" alt="Ceviche" class="img-fluid ins-img" title="Ceviche">
+                </figure>
+                <figure class="col-12 m-0">
+                    <img src="imagenes/I-02.jpg" alt="Causa Limeña" class="img-fluid ins-img" title="Causa Limeña">
+                </figure>
+                <figure class="col-12 m-0">
+                    <img src="imagenes/I-03.jpg" alt="Pachamanca" class="img-fluid ins-img" title="Pachamanca">
+                </figure>
+                <figure class="col-12 m-0">
+                    <img src="imagenes/I-04.jpg" alt="Pollo a la Brasa" class="img-fluid ins-img"
+                        title="Pollo a la Brasa">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- Chefs -->
+    <section id="chefs" class="padded">
+        <div class="container">
+            <h2>Chefs</h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <ul class="list-group row" id="lista-chefs">
+                        <li class="list-group-item" archivo-chefs="GastonAcurio">Gaston Acurio
+                        </li>
+                        <li class="list-group-item" archivo-chefs="PedroMiguelSchiaffino">Pedro
+                            Miguel
+                            Schiaffino
+                        </li>
+                        <li class="list-group-item" archivo-chefs="FlavioSolorzano">Flavio
+                            Solorzano</li>
+                        <li class="list-group-item" archivo-chefs="TeresaIzquierdo">Teresa
+                            Izquierdo</li>
+                        <li class="list-group-item" archivo-chefs="TeresaOcampo">Teresa Ocampo
+                        </li>
+                        <li class="list-group-item" archivo-chefs="JavierWong">Javier Wong</li>
+                        <li class="list-group-item" archivo-chefs="AstridGutsche">Astrid Gutsche
+                        </li>
+                        <li class="list-group-item" archivo-chefs="DabizMuñoz">Dabiz Muñoz</li>
+                        <li class="list-group-item" archivo-chefs="AlexAtala">Alex Atala</li>
+                        <li class="list-group-item" archivo-chefs="MassimoBottura">Massimo Bottura
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col" id="visor-chefs">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter -->
+    <section id="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md align-self-center">
+                    <h2>Newsletter</h2>
+                    <p>
+                        Ingrese su email y reciba todas las buenas nuevas de nuestro restaurante, nuevas ofertas, nuevos
+                        platillos a disgustar, nuevos chefos, nuevas sedes, entre muchas cosas más, no esperas más y
+                        DALE!!!
+                    </p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control enviar" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Ingrese su Email">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn_unete">UNETE</button>
+                    </form>
+                </div>
+                <div class="col-md">
+                    <img src="imagenes/newsletter.jpg" alt="Newsletter" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row main_footer">
+                <div class="col-xxl-6 col-md-12 col-sm-12 d-flex flex-column">
+                    <h3 class="nombre_footer">FoodFast</h3>
+                    <div class="icons_footer col">
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-md-12 col-sm-12">
+                    <div class="row d-flex">
+                        <div class="col-4">
+                            <ul class="list-group">
+                                <h6 class="nombre_list_footer">Proveedores</h6>
+                                <li class="list-group-item">Mercado Santa Rosa</li>
+                                <li class="list-group-item">Don Pepito</li>
+                                <li class="list-group-item">Metro</li>
+                                <li class="list-group-item">Wong</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="list-group">
+                                <h6 class="nombre_list_footer">Tiendas</h6>
+                                <li class="list-group-item">Miraflores</li>
+                                <li class="list-group-item">San Isigro</li>
+                                <li class="list-group-item">La Molina</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="list-group">
+                                <h6 class="nombre_list_footer">Premios</h6>
+                                <li class="list-group-item">Mejor Servico </li>
+                                <li class="list-group-item">Mejor Comida</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_terminos">
+                <div class="col-xxl-6 col-sm-12-xxl">
+                    <h5>Todos los Derechos Reservados 2022</h5>
+                </div>
+                <div class="col-xxl-6 col-sm-12-xxl">
+                    <div class="row">
+                        <div class="col-xxl-4 col-md-4">
+                            <h5>Terminos y Condiciones</h5>
+                        </div>
+                        <div class="col-xxl-4 col-md-4">
+                            <h5>Legal</h5>
+                        </div>
+                        <div class="col-xxl-4 col-md-4">
+                            <h5>Politica y Privacidad</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scrips -->
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

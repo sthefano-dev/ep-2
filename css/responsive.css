@@ -1,0 +1,57 @@
+@media (max-width: 991px) {
+	.footer {
+		text-align: center;
+	}
+}
+@media (max-width: 575px) {
+	body {
+		text-align: center;
+	}
+	.card_productos {
+		height: 600px;
+		margin: 8px;
+	}
+	.navbar-toggler {
+		margin: 1rem 0;
+	}
+	.search {
+		margin: 0 auto;
+	}
+	.vertodo {
+		margin-top: 50px;
+		margin-left: 0;
+	}
+	.owl-carousel .owl-nav button.owl-next {
+		top: 70%;
+		right: 200px;
+	}
+	.owl-carousel .owl-nav button.owl-prev {
+		top: 71%;
+		right: 100px;
+		margin-left: 0;
+	}
+	.ins-img {
+		width: 100%;
+	}
+	.insignia figure figcaption {
+		width: 100%;
+	}
+	.navbar-brand {
+		margin: 0 auto;
+	}
+	#menu-iconos {
+		display: flex;
+		flex-direction: row;
+		margin: 0 auto;
+	}
+	#menu-iconos i {
+		margin: 0 16px;
+	}
+	.banner-text {
+		width: 200px;
+	}
+	.banner-text h3,
+	.banner-text p {
+		font-size: 20px;
+	}
+}
